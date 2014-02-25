@@ -12,9 +12,9 @@ sudo ./install-tl-ubuntu [OPTIONS]
   - automatically finds the fastest repository
   - gives updated progress of the install
   - restarts automatically if install fails
-- tlmgr can then be used to key your install up-to-date
+- **tlmgr** can then be used to key your install up-to-date
 - notifies apt so that apt does not try to install the Ubuntu `texlive-*` packages as dependencies (e.g. if you do `sudo apt-get install lyx`)
-- links to the folder where Ubuntu installs TeX files so that when you install Ubuntu packages (e.g. **FoilTeX** and **noweb**) with LaTeX files, they will be available
+- links to the folder where Ubuntu installs TeX files so that when you install Ubuntu packages (e.g. FoilTeX and noweb) with LaTeX files, they will be available
 - adds TeX Live fonts to be used system-wide
 - other font-related conveniences
   - tells AppArmor to allow Evince to access the TeX Live fonts
